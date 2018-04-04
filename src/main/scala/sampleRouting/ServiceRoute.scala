@@ -12,7 +12,7 @@ trait ServiceRoute extends App with SimpleRoutingApp {
     path("hello") {
       get {
         complete {
-          <h1>Say hello to spray</h1>
+          <h1>This is Mumbai Server</h1>
         }
       }
     }
