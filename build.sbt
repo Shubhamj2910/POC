@@ -23,6 +23,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http" % "10.0.10",
   "com.typesafe.akka" %% "akka-http-testkit" % "10.0.10" % Test,
   "io.spray" %% "spray-routing" % sprayVersion,
-  "io.spray" %% "spray-can" % sprayVersion
+  "io.spray" %% "spray-can" % sprayVersion,
+  "com.typesafe.akka" %% "akka-http-spray-json" % "10.0.10"
 )
 
