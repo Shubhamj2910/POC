@@ -8,7 +8,7 @@ trait ServiceRoute extends App with SimpleRoutingApp {
 
   implicit val system1 = ActorSystem("my-system")
 
-  // Sample Spray Route
+  // Sample Spray Route Hello
 
   startServer(interface = "0.0.0.0", port = 8080) {
     path("hello") {
