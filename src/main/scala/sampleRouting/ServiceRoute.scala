@@ -10,7 +10,7 @@ trait ServiceRoute extends App with SimpleRoutingApp {
 
   // Sample Spray Route Hello
 
-  startServer(interface = "0.0.0.0", port = 8080) {
+  startServer(interface = "0.0.0.0", port = 8089) {
     path("hello") {
       get {
         complete {
